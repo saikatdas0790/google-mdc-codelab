@@ -4,19 +4,4 @@ $mdc-theme-primary: $crane-primary-color;
 
 @import "@material/button/mdc-button";
 @import "@material/select/mdc-select";
-
-.crane-label {
-  order: -1;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-}
-
-.crane-input {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  height: 3rem;
-  margin-top: 8px;
-  padding: 12px;
-  font-size: 1.1rem;
-}
+@import "@material/textfield/mdc-text-field";
